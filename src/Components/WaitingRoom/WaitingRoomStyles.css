@@ -1,0 +1,37 @@
+.PlayerList-container
+{
+    background-image: url('../../../public/images/waiting.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.PlayerList
+{
+    background-color:rgb(0,0,0,0.6);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0.2em 0.6em 5em ;
+    width: 25em;
+    height: 35em;
+    padding: 3em;
+}
+
+.copy-button {
+    opacity: 1;
+    transition: opacity 0.05s;
+}
+
+.copy-button:hover {
+    transition: all 20ms ease-in-out;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.copy-button-active {
+    cursor: default;
+}
